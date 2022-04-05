@@ -47,4 +47,6 @@ jobs:
         run: git --version
       - name: terraform version
         run: terraform --version
+      - name: aws cli
+        run: aws --version
 
